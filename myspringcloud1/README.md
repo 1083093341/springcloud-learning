@@ -1,9 +1,9 @@
 
+#### mypringcloud1------用微服务搭建的最基本的项目模块，用rest方式来调用微服务
+```
 
-## springcloud-learning，一个学习springcloud的项目，会慢慢完成
-1.每一个mypringcloudxxx都是一个单独的项目，请拿出来单独运行
+myspringcloud-api： 公用模块
+myspringcloud-provider-dept： 服务的提供者
+myspringcloud-consumer-dept： 服务的消费者
+运行方式： 先启动服务的提供者，再启动消费者
 
-
-
-#### (1).mypringcloud1------用微服务搭建的最基本的项目模块，用rest方式来调用微服务
-> mypringcloud1运行方式：1.先启动服务提供者myspringcloud-provider-dept 2.接着启动服务消费者myspringcloud-consumer-dept
