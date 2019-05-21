@@ -8,8 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 
 @SpringBootApplication
-public class DeptConsumer80App {
+public class DeptConsumer80 {
     public static void main(String[] args) {
-        SpringApplication.run(DeptConsumer80App.class, args);
+        SpringApplication.run(DeptConsumer80.class, args);
     }
 }
