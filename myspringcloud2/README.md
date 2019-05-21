@@ -15,13 +15,19 @@ myspringcloud-eureka-7002：eureka服务注册中心2
 myspringcloud-eureka-7003：eureka服务注册中心3
 
 
-运行方式：依次启动三个eureka, 再启动服务的提供者向三个注册中心注册自己。 分别访问 http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
-查看是否注册成功
+运行方式：依次启动三个eureka, 再启动服务的提供者向三个注册中心注册自己。 
 
+分别访问 http://eureka7002.com:7002/eureka/ 
+
+http://eureka7003.com:7003/eureka/
+
+http://eureka7001.com:7001/eureka/
+
+查看是否注册成功
 
 
 说明：
 由于只有一台机器 我在hosts文件中添加了地址映射
-127.0.0.1   eureka7001.com
-127.0.0.1   eureka7002.com
-127.0.0.1   eureka7003.com
+127.0.0.1   eureka7001.com      
+127.0.0.1   eureka7002.com      
+127.0.0.1   eureka7003.com      
