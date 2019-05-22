@@ -1,5 +1,5 @@
 
-### 6.mypringcloud4------在上一个项目基础上，加上zuul路由网关
+### 6.mypringcloud6------在上一个项目基础上，加上zuul路由网关
 
 
 myspringcloud-api： 公用模块
@@ -28,6 +28,11 @@ myspringcloud-zuul-gateway:zuul路由网关
 
 运行：
 启动3个eureka, 再启动myspringcloud-provider-dept，再启动myspringcloud-consumer-dept
+
+
+
+两种方式访问：
+
 
 
 可以在配置文件中配置忽略这种访问方式
