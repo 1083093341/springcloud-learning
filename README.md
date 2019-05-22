@@ -8,6 +8,6 @@ mypringcloud2项目是在mypringcloud1上面做增加操作，mypringcloud3项�
 
 #### 1.mypringcloud1------用微服务搭建的最基本的项目模块，用rest方式来调用微服务
 
-#### 2.mypringcloud2------用Eureka做服务注册与发现，并且用了Eureka项目来做集群操作
+#### 2.mypringcloud2------在上一个项目基础上，用Eureka做服务注册与发现，并且用了Eureka项目来做集群操作
 
-#### 3.mypringcloud3------用Ribbon负载均衡做f负载均衡
+#### 3.mypringcloud3------在上一个项目基础上，用Ribbon负载均衡做负载均衡
