@@ -28,10 +28,15 @@ myspringcloud-zuul-gateway:zuul路由网关
 
 运行：
 启动3个eureka, 再启动myspringcloud-provider-dept，再启动myspringcloud-consumer-dept
+
+
+可以在配置文件中配置忽略这种访问方式
 不用路由：http://localhost:8001/dept/get/2
+
+
 启动路由： http://myzuul.com:9500/dept-service/dept/get/2
 
-myzuul.com 127.0.0.1 HOSTS路径映射。可以在配置文件中配置只使用 启动路由的访问方式
+myzuul.com 127.0.0.1 HOSTS路径映射。
 
 
 
