@@ -12,7 +12,7 @@ myspringcloud-provider-dept3： 服务的提供者3
 
 myspringcloud-consumer-dept： 服务的消费者
 
-myspringcloud-consumer-dept-feign：集成了Feign进行调用接口
+myspringcloud-consumer-dept-feign：集成了Feign进行接口调用
 
 myspringcloud-eureka-7001：eureka服务注册中心1
 
