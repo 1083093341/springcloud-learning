@@ -1,5 +1,5 @@
 
-### mypringcloud3------在myspringcloud2基础上加上客户端的Ribbon负载均衡，三个服务提供者提供相同的服务，全部注册进eureka集群中
+### mypringcloud4------在myspringcloud3基础上加上Feign ,Feign融合了Ribbon技术，所以也支持负载均衡。
 
 
 myspringcloud-api： 公用模块

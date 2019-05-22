@@ -11,3 +11,5 @@ mypringcloud2项目是在mypringcloud1上面做增加操作，mypringcloud3项�
 #### 2.mypringcloud2------在上一个项目基础上，用Eureka做服务注册与发现，并且用了Eureka项目来做集群操作
 
 #### 3.mypringcloud3------在上一个项目基础上，用Ribbon负载均衡做负载均衡
+
+#### 4.mypringcloud4------在上一个项目基础上，加上Feign ,Feign融合了Ribbon技术，所以也支持负载均衡。
