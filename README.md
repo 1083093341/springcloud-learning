@@ -14,4 +14,4 @@ mypringcloud2项目是在mypringcloud1上面做增加操作，mypringcloud3项�
 
 #### 4.mypringcloud4------在上一个项目基础上，加上Feign ,Feign融合了Ribbon技术，所以也支持负载均衡。
 
-#### 5.mypringcloud4------在上一个项目基础上，加上Hystrix断路器 ,来实现负的的熔断，降级，和服务的监控（hystrixDashboar）
+#### 5.mypringcloud5------在上一个项目基础上，加上Hystrix断路器 ,来实现负的的熔断，降级，和服务的监控（hystrixDashboar）
