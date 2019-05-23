@@ -1,0 +1,29 @@
+server:
+  port: 9500
+
+
+spring:
+  application:
+    name: myspringcloud-zuul-gateway
+
+zuul:
+  routes:
+    mydept.serviceId: dept-service
+    mydept.path: /mydept/**
+#  prefix: /zwr  #http://myzuul.com:9500/zwr/mydept/dept/get/1
+#  ignored-services: "*" #忽略原真实服务名 ，只通过zuul路由访问
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    instance-id: gateway-9500.com
+    prefer-ip-address: true
+
+
+info:
+  app.name: zwr-myspringcloud
+  company.name: www.zwr.com
+  build.artifactId: @project.artifactId@
+  build.version: @project.version@

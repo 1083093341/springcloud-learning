@@ -17,3 +17,5 @@ mypringcloud2项目是在mypringcloud1上面做增加操作，mypringcloud3项�
 #### 5.mypringcloud5------在上一个项目基础上，加上Hystrix断路器 ,来实现负的的熔断，降级，和服务的监控（hystrixDashboar）
 
 #### 6.mypringcloud6------在上一个项目基础上，加上zuul路由网关
+
+#### 7.mypringcloud7------添加springcloudConfig
